@@ -417,3 +417,69 @@ line-height: 1.4;
 .part6-header h2 {
   font-weight: normal;
 }
+.part7-left {
+  width: 60%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.part7-left h2 {
+  width: 340px;
+  margin-top: 100px;
+  font-size: 56px;
+  color: #242121;
+  font-family: sans-serif;
+}
+.left-img1 {
+  position: absolute;
+  right: 35%;
+   top: 68%;
+}
+.left-img2 {
+  position: absolute;
+  top: 30%;
+  right: 20%;
+  font-weight: normal;
+}
+.part7 {
+  display: flex;
+}
+.part7-right {
+  /* width: 40%; */
+  /* height: 70vh; */
+  display: flex;
+  flex-direction: column;
+}
+.input1, .input2, .input3, .input4, .input5 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.part7-right input {
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px  solid black;
+  width: 400px;
+}
+.fullinput {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 100px;
+}
+input:focus {
+  outline: none;
+}
+.part7-right button {
+  padding: 11px 15px;
+  width: 400px;
+  margin-top: 20px;
+  font-size: 14px;
+   background-color: #c8c8c8;
+   cursor: pointer;
+}
+.part7-right button:hover {
+  background-color: black;
+  color: white;
+}
